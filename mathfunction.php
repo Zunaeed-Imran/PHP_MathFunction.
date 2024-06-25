@@ -23,7 +23,7 @@
     $x = $_POST["x"];
     $y = $_POST["y"];
     $z = $_POST["z"];
-    $total = null;
+    // $total = null;
 
     // $total = abs($x);  this is absolute function
     // $total = round($x);  it is round function
@@ -33,7 +33,7 @@
     // $total = sqrt($x); root of number
     // $total = pow($x, $y); using power
 
-    // $total = max($x, $y, $z); max number in given three
+    $total = max($x, $y, $z); //max number in given three
     // $total = min($x, $y, $z); minimum number of given number
     // $total = pi(); PI function
     // $total = rand(); it will show random number
